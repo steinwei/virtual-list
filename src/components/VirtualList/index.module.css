@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: red;
+}
+
+.header {
+  background-color: blue;
+}
+
+.main {
+  background-color: green;
+  overflow: auto;
+  position: relative;
+}
+.scroll-container-padding {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.scroll-real-container {
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.footer {
+  background-color: yellow;
+}
